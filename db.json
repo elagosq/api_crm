@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Esteban Actualizado",
+      "empresa": "Nuevo Empresa Esteban",
+      "email": "elagosquintanilla@gmail.com",
+      "telefono": "212121",
+      "notas": "Hola mundo",
+      "id": 1
+    },
+    {
+      "nombre": "Karen",
+      "empresa": "Karen Diseño",
+      "email": "karen@gmail.com",
+      "telefono": "32321321",
+      "notas": "Karen diseño grafico",
+      "id": 2
+    },
+    {
+      "nombre": "Paulina",
+      "empresa": "Paulina Contrucciones",
+      "email": "paulina@gmail.com",
+      "telefono": "3213213",
+      "notas": "Paulina clientes ",
+      "id": 3
+    },
+    {
+      "nombre": "Esteban",
+      "empresa": "Nuevo Empresa Esteban",
+      "email": "elagosquintanilla@gmail.com",
+      "telefono": "212121",
+      "notas": "Hola mundo",
+      "id": 4
+    }
+  ]
+}
