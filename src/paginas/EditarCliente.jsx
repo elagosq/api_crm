@@ -4,7 +4,7 @@ import Formulario from "../components/Formulario";
 
 const EditarCliente = () => {
     const [ cliente, setCliente] = useState({});
-    const [ cargando,setCargando] = useState(true)
+    const [ cargando, setCargando] = useState(true);
     const { id } = useParams();
 
     useEffect(() => {
@@ -17,6 +17,7 @@ const EditarCliente = () => {
             }catch (error) {
                 console.log(error);
             }
+
             setTimeout(() => {
                 setCargando(!cargando);
             },100)

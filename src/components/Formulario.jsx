@@ -29,7 +29,7 @@ const Formulario = ({cliente,cargando}) => {
         notas:Yup.string()
             .required('Ingrese una nota')
             .max(600),
-    })
+    });
 
     const handleSubmit = async (valores) => {
         try {
@@ -43,7 +43,7 @@ const Formulario = ({cliente,cargando}) => {
                   headers:{
                       'Content-Type': 'application/json'
                   }
-              })
+              });
           }else{
               //Nuevo Registro
               const url = import.meta.env.VITE_API_URL;
@@ -53,10 +53,10 @@ const Formulario = ({cliente,cargando}) => {
                   headers:{
                       'Content-Type': 'application/json'
                   }
-              })
+              });
           }
             await respuesta.json();
-            //redirecciona a la pagina cliente
+            //Redirecciona a la ruta clientes
             navigate('/clientes');
         }catch (error){
            console.log(error);

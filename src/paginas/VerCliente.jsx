@@ -28,8 +28,6 @@ const VerCliente = () => {
 
     const { nombre,email,telefono,empresa,notas } = cliente
 
-    console.log(cargando);
-
     return (
             cargando ? <Spinner /> :
             Object.keys(cliente).length === 0 ? <p> No hay  Resultado </p> : (
